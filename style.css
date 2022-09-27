@@ -1,1 +1,38 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    justify-items: end;
+    align-items: center;
+}
+main{
+    background-color: pink;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+aside{
+    padding: 10px;
+}
+aside{
+    padding: 10px;
+}
+footer{
+    background-color: orange;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5% 1fr 3%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+    margin-top: 50px;
+}
